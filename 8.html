@@ -4,42 +4,37 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style>
-		.box{
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		a {
+			text-decoration: none;
+		}
+		.list {
 			width: 210px;
-			border-bottom:1px solid #ddd;
-	    line-height: 32px;
-	    position: relative;
-
-
 		}
-		.x{
-			position: relative;
-		}
-		.img1{
-      display: :inline-block;
-      float: left;
-      position: absolute;
-      left: 0px;top: 10px;
-		}
-		.p1{
+		.list li {
 			font-size: 13px;
-			margin-left: 40px;
+			font-weight: bold;
+			line-height: 32px;
+			background: url('imgs/arrow01.gif') no-repeat left;
+			padding-left: 40px;
+      border-bottom: 1px solid #DDD;
 		}
-		img{
-		
+		.list a {
+			color: #000;
 		}
-
-
 	</style>
 </head>
 <body>
-	<div class="x">
-		<div class="box"><img src="imgs/arrow01.gif" class="img1"><div class="p1">最新产品</div></div>
-		<div class="box"><img src="imgs/arrow01.gif" class="img1"><div class="p1">热销产品</div></div>
-		<div class="box"><img src="imgs/arrow01.gif" class="img1"><div class="p1">布艺沙发</div></div>
-		<div class="box"><img src="imgs/arrow01.gif" class="img1"><div class="p1">真皮沙发</div></div>
-		<div class="box"><img src="imgs/arrow01.gif" class="img1"><div class="p1">藤艺沙发</div></div>
-
-	</div>
+	<ul class="list">
+		<li><a href="#">最新产品</a></li>
+		<li><a href="#">热销产品</a></li>
+		<li><a href="#">布艺沙发</a></li>
+		<li><a href="#">真皮沙发</a></li>
+		<li><a href="#">藤艺沙发</a></li>
+	</ul>
 </body>
 </html>

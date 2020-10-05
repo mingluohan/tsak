@@ -4,36 +4,39 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style>
-		div{
-			background: #D5FF8C;
+		ul{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		.list {
 			width: 235px;
-			margin: auto;
-			text-align: center;
-		} 
-		p{
-			width:235px;
-			height: 30px;
-     background: url('imgs/ai.gif') no-repeat 15px;
-     line-height: 30px;
-
-     
+			background: #D5FF8C;
 		}
-		.p1{
+		.list li {
+			width: 195px;
+			margin: 10px auto;
 			font-size: 13px;
-			margin-left: 5px;
+			text-align: center ;
+			height: 30px;
+			background: url('imgs/ai.gif') ;
 		}
-
-
 	</style>
 </head>
 <body>
-	<div >
-		<p class="p1">茶吧首页</p>
-		<p class="p1">普洱简介</p>
-		<p class="p1">茶叶新品</p>
-		<p class="p1">特价茶叶</p>
-		<p class="p1">客户反馈</p>
-		<p class="p1">联系我们</p>
+	<div class="list">
+		<ul>
+			<li><a href="#">茶吧首页</a></li>
+			<li><a href="#">普洱简介</a></li>
+			<li><a href="#">茶叶新品</a></li>
+			<li><a href="#">特价茶叶</a></li>
+			<li><a href="#">客户反馈</a></li>
+			<li><a href="#">关于我们</a></li>
+		</ul>
 	</div>
 </body>
 </html>
